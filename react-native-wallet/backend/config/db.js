@@ -21,9 +21,9 @@ export const initDB = async () => {
             category VARCHAR(255),
             created_at DATE NOT NULL DEFAULT CURRENT_DATE
         )`;
-        console.log('Database initialized successfully:')
+        console.log('Database initialized successfully--:')
     } catch (error) {
-        console.error('Error initializing DB:', error);
+        console.error('Error initializing DB--:', error);
         process.exit(1) // Exit the process with failure
     }
 }
